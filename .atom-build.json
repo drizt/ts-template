@@ -1,0 +1,6 @@
+{
+  "cmd": "npm",
+  "args": ["start"],
+  "sh": true,
+  "keymap": "ctrl-alt-b"
+}
