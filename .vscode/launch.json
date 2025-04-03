@@ -5,8 +5,8 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceRoot}/src/index.ts",
-      "runtimeArgs": ["-r", "ts-node/register"]
+      "program": "${workspaceRoot}/dist/index.js",
+      "preLaunchTask": "npm: build"
     }
   ]
 }
