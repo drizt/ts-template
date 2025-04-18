@@ -4,9 +4,11 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Launch",
       "program": "${workspaceRoot}/dist/index.js",
-      "preLaunchTask": "npm: build"
+      "preLaunchTask": "npm: build",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "console": "integratedTerminal"
     }
   ]
 }
