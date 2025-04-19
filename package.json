@@ -17,6 +17,6 @@
     "start": "node dist/index.js",
     "compile": "tsc",
     "build": "npm run compile",
-    "lint": "eslint src"
+    "lint": "eslint"
   }
 }
