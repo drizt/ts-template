@@ -1,4 +1,4 @@
-import * as ob from './add.js';
+import * as ob from './add.ts';
 
 const a = await ob.add(15, 33);
 console.log(a);
